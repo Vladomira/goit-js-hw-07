@@ -1,0 +1,23 @@
+  
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+ 
+.gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.gallery__list {
+    margin: 0;
+    width: 200px;
+    height: 200px;
+} 
+
+
