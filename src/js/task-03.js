@@ -18,19 +18,20 @@ const images = [
   const galleryList = images.map(image => {
     const createElementOfList = document.createElement('li');
     const createImg = document.createElement('img');
-    createElementOfList.append(createImg);
-    createImg.alt = image.alt;
-    createImg.src = image.url;
-
-
+    createElementOfList.append(createImg);    
+  
     createElementOfList.classList.add('gallery__list');
-    createImg.classList.add('gallery__img');
-    
-    return createElementOfList;
+       
+    return `<li><img src = ${image.url} alt = ${image.alt}}/></li>`;
   });
-
-  gallery.append(...galleryList);
+ console.log(galleryList);
+  gallery.insertAdjacentHTML('afterbegin', galleryList);
+ 
 
   // **************
   gallery.classList.add('gallery');
-  
+ 
+
+
+  //createImg.alt = image.alt;
+  // createImg.src = image.url;
