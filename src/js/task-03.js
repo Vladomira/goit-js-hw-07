@@ -25,7 +25,7 @@ const images = [
     return `<li><img src = ${image.url} alt = ${image.alt}}/></li>`;
   });
  console.log(galleryList);
-  gallery.insertAdjacentHTML('afterbegin', galleryList);
+  gallery.insertAdjacentHTML('afterbegin', galleryList.join(' '));
  
 
   // **************
