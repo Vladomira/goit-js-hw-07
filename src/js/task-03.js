@@ -19,8 +19,6 @@ const images = [
     const createElementOfList = document.createElement('li');
     const createImg = document.createElement('img');
     createElementOfList.append(createImg);    
-  
-    createElementOfList.classList.add('gallery__list');
        
     return `<li><img src = ${image.url} alt = ${image.alt}}/></li>`;
   });

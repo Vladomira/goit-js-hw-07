@@ -1,22 +1,21 @@
   
 
 img {
-  width: 100%;
+  max-width: 100%;
   height: 250px;
-  border-radius: 10%;
+  width: 450px;
+  border-radius: 9%;
 }
   
 .gallery {
+  margin-top: 50px;
   display: flex;
+  flex-direction: column;
   max-width: 1200px;  
+  align-items: center;
   justify-content: center;
   list-style-type: none;
 };
 
-.gallery__list {   
-    margin-left: 25px;
-    max-width: 500px;
-    max-height: 500px; 
-};
 
 
