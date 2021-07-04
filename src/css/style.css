@@ -4,6 +4,7 @@ img {
     display: block;
     max-width: 100%;
     height: auto;
+    border-radius: 20px;
 }
   
 .gallery {
@@ -14,11 +15,9 @@ img {
   list-style-type: none;
 };
 
-.gallery__list {
-  border-radius: 20px;
-    margin: 0;
-    width: 200px;
-    height: 200px;
+.gallery__list {    
+     max-width: 500px;
+    max-height: 500px; 
 };
 
 
