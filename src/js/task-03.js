@@ -31,7 +31,3 @@ const images = [
   // **************
   gallery.classList.add('gallery');
  
-
-
-  //createImg.alt = image.alt;
-  // createImg.src = image.url;
