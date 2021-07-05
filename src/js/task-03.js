@@ -19,8 +19,9 @@ const images = [
     const createElementOfList = document.createElement('li');
     const createImg = document.createElement('img');
     createElementOfList.append(createImg);    
+  
        
-    return `<li><img src = ${image.url} alt = ${image.alt}}/></li>`;
+    return `<li ><img src = ${image.url} alt = ${image.alt}}/></li>`;
   });
  console.log(galleryList);
   gallery.insertAdjacentHTML('afterbegin', galleryList.join(' '));
